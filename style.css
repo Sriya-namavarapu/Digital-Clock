@@ -1,0 +1,33 @@
+#myVideo {
+   width: 100vw;
+   height: 100vh;
+   object-fit: cover;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: -1;
+  
+}
+body{
+   
+    margin:0;
+}
+#clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    backdrop-filter: blur(2px);
+    background-color: rgba(196, 213, 229, 0.201);
+
+}
+#clock{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(227, 239, 249);
+    width: 100%;
+}
